@@ -3,6 +3,6 @@ Master Data Management (MDM)
 
 在数据仓库领域有一个概念叫**Ad hoc queries**，中文一般翻译为“即席查询”。即席查询是指那些用户在使用系统时，根据自己当时的需求定义的查询。即席查询生成的方式很多，最常见的就是使用即席查询工具。一般的数据展现工具都会提供即席查询的功能。通常的方式是，将数据仓库中的维度表和事实表映射到语义层，用户可以通过语义层选择表，建立表间的关联，最终生成SQL语句。即席查询与通常查询从SQL语句上来说，并没有本质的差别。它们之间的差别在于，通常的查询在系统设计和实施时是已知的，所有我们可以在系统实施时通过建立索引、分区等技术来优化这些查询，使这些查询的效率很高。而即席查询是用户在使用时临时生产的，系统无法预先优化这些查询，所以即席查询也是评估数据仓库的一个重要指标。即席查询的位置通常是在关系型的数据仓库中，即在EDW或者ROLAP中。多维数据库有自己的存储方式，对即席查询和通常查询没有区别。在一个数据仓库系统中，即席查询使用的越多，对数据仓库的要求就越高，对数据模型的对称性的要求也越高。对称性的数据模型对所有的查询都是相同的，这也是维度建模的一个优点。
 
-![alt text][logo]
+![alt text][Dia_DW]
 
-[logo]: https://github.com/effenberg/DataWarehouse/iagram01_DW.PNG "Diagram of DataWarehouse"
+[Dia_DW]: https://github.com/effenberg/DataWarehouse/blob/main/Diagram01_DW.PNG "Diagram of DataWarehouse"
