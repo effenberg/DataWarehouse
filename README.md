@@ -5,4 +5,4 @@ Master Data Management (MDM)
 
 ![alt text][Dia_DW]
 
-[Dia_DW]: https://github.com/effenberg/DataWarehouse/blob/main/Diagram01_DW.PNG "Diagram of DataWarehouse"
+[Dia_DW]: https://github.com/effenberg/DataWarehouse/blob/main/pic/Diagram01_DW.PNG "Diagram of DataWarehouse"
